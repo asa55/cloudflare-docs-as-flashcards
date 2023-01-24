@@ -1,0 +1,19 @@
+##
+
+What is DDoS mitigation?
+DDoS mitigation refers to the process of successfully protecting a targeted server or network from a distributed denial-of-service (DDoS) attack. By utilizing specially designed network equipment or a cloud-based protection service, a targeted victim is able to mitigate the incoming threat.
+
+DDoS Mitigation Stages
+There are 4 stages of mitigating a DDoS attack using a cloud-based provider:
+
+Detection - in order to stop a distributed attack, a website needs to be able to distinguish an attack from a high volume of normal traffic. If a product release or other announcement has a website swamped with legitimate new visitors, the last thing the site wants to do is throttle them or otherwise stop them from viewing the content of the website. IP reputation, common attack patterns, and previous data assist in proper detection.
+Response - in this step, the DDoS protection network responds to an incoming identified threat by intelligently dropping malicious bot traffic, and absorbing the rest of the traffic. Using WAF page rules for application layer (L7) attacks, or another filtration process to handle lower level (L3/L4) attacks such as memcached or NTP amplification, a network is able to mitigate the attempt at disruption.
+Routing - By intelligently routing traffic, an effective DDoS mitigation solution will break the remaining traffic into manageable chunks preventing denial-of-service.
+Adaptation - A good network analyzes traffic for patterns such as repeating offending IP blocks, particular attacks coming from certain countries, or particular protocols being used improperly. By adapting to attack patterns, a protection service can harden itself against future attacks.
+Choosing a DDoS mitigation service
+Traditional DDoS mitigation solutions involved purchasing equipment that would live on site and filter incoming traffic. This approach involves purchasing and maintaining expensive equipment, and also relied on having a network capable of absorbing an attack. If a DDoS attack is large enough, it can take out the network infrastructure upstream preventing any on-site solution from being effective. When purchasing a cloud-based DDoS mitigation service, certain characteristics should be evaluated.
+
+Scalability - an effective solution needs to be able to adapt to the needs of a growing business as well as respond to the growing size of DDoS attacks. Attacks larger than 2 terabits per second (Tbps) have occurred, and there’s no indication that the trend in attack traffic size is downward. Cloudflare’s network is capable of handling DDoS attacks considerably larger than have ever occurred.
+Flexibility - being able to create ad hoc policies and patterns allows a web property to adapt to incoming threats in real time. The ability to implement page rules and populate those changes across the entire network is a critical feature in keeping a site online during an attack.
+Reliability - much like a seatbelt, DDoS protection is something you only need when you need it, but when that time comes it better be functional. The reliability of a DDoS solution is essential to the success of any protection strategy. Make sure that the service has high uptime rates and site reliability engineers working 24 hours a day to keep the network online and identify new threats. Redundancy, failover and an expansive network of data centers should be central to the strategy of the platform.
+Network size - DDoS attacks have patterns that occur across the Internet as particular protocols and attack vectors change over time. Having a large network with extensive data transfer allows a DDoS mitigation provider to analyze and respond to attacks quickly and efficiently, often stopping them before they ever occur. Cloudflare’s network runs Internet requests for millions of websites, creating an advantage in analyzing data from attack traffic around the globe.
